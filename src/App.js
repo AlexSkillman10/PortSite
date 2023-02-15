@@ -5,7 +5,7 @@ function App() {
   const projects = [
     {
       id: 1,
-      title: 'Project 1',
+      title: 'Project Basic',
       description: 'This is the first project',
       image: 'https://via.placeholder.com/200x200',
       url: 'https://example.com/project1',
