@@ -5,13 +5,6 @@ function App() {
   const projects = [
     {
       id: 1,
-      title: 'Project Basic',
-      description: 'This is the first project',
-      image: 'https://via.placeholder.com/200x200',
-      url: 'https://example.com/project1',
-    },
-    {
-      id: 2,
       title: 'Gamepad to Keyboard/Mouse',
       description: 'Adds the ability to control Windows using a standard gampad, with customizable controls.',
       //image link to XboxGitCap.png in the public folder
@@ -19,14 +12,14 @@ function App() {
       url: 'https://github.com/AlexSkillman10/XBOXtoKeyMouse',
     },
     {
-      id: 3,
+      id: 2,
       title: 'Project 2',
       description: 'This is the second project',
       image: 'https://via.placeholder.com/200x200',
       url: 'https://example.com/project2',
     },
     {
-      id: 4,
+      id: 3,
       title: 'Project 2',
       description: 'This is the second project',
       image: 'https://via.placeholder.com/200x200',

@@ -51,17 +51,38 @@ header {
 
 .grid-item {
   margin: 20px;
-  background-color: #2b2b2b;
+  background-color: #383838;
   border-radius: 10px;
-  padding: 20px;
+  padding: 70px 30px;
   width: 300px;
   text-align: center;
+  position: relative;
 }
 
 .grid-item img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+}
+
+/* add style for link box */
+.grid-item a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: background-color 0.3s ease;
+}
+
+/* add hover effect for link box */
+.grid-item a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 @media screen and (min-width: 768px) {
