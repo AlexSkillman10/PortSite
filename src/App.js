@@ -16,7 +16,7 @@ function App() {
       description: 'Adds the ability to control Windows using a standard gampad, with customizable controls.',
       //image link to XboxGitCap.png in the public folder
       image: 'XboxGitCap.png',
-      url: 'https://example.com/project2',
+      url: 'https://github.com/AlexSkillman10/XBOXtoKeyMouse',
     },
     {
       id: 3,
@@ -25,7 +25,13 @@ function App() {
       image: 'https://via.placeholder.com/200x200',
       url: 'https://example.com/project2',
     },
-    // ... add more projects here
+    {
+      id: 4,
+      title: 'Project 2',
+      description: 'This is the second project',
+      image: 'https://via.placeholder.com/200x200',
+      url: 'https://example.com/project2',
+    },
   ];
 
   return (
