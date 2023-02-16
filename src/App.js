@@ -47,10 +47,12 @@ function App() {
 
   return (
     <div>
-      <header>
-        Alex Skillman
-      </header>
-      <h2 className="section-header">About me</h2>
+      <div className="heading-container">
+        <div className="heading">
+          <h1 className='sh'>Alex Skillman</h1>
+          <h1 className='ssh'>About Me</h1>
+        </div>
+      </div>
       <div className="about-container">
         <div className="about">
           <img src="https://via.placeholder.com/200x200" alt="Your Name" />
@@ -60,7 +62,11 @@ function App() {
           </p>
         </div>
       </div>
-      <h2 className="section-header">Projects</h2>
+      <div className="heading-container">
+        <div className="heading">
+          <h1 className='ssh2'>Projects</h1>
+        </div>
+      </div>
       <div className="grid-container">
         {projects.map((project) => (
           <div key={project.id} className="grid-item">
