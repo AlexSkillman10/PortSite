@@ -29,7 +29,7 @@ header {
   font-size: 36px;
   margin-left: 0px;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .about {
@@ -64,7 +64,7 @@ header {
 }
 
 .grid-item {
-  margin: 0px;
+  margin: 15px;
   background-color: #26262677;
   border-radius: 7px;
   padding: 0;
