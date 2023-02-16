@@ -13,16 +13,32 @@ function App() {
     },
     {
       id: 2,
-      title: 'Project 2',
-      description: 'This is the second project',
-      image: 'https://via.placeholder.com/200x200',
+      title: 'This Website',
+      description: 'My first real foray in React, this website was custom built off of npx create-react-app to host and present some of my work.',
+      image: "/images/TempWebCap.PNG",
       url: 'https://example.com/project2',
-      githubUrl: 'https://github.com/example/project2'
+      githubUrl: 'https://github.com/AlexSkillman10/PortSite'
     },
     {
       id: 3,
       title: 'Project 3',
       description: 'This is the third project',
+      image: 'https://via.placeholder.com/200x200',
+      url: 'https://example.com/project3',
+      githubUrl: 'https://github.com/example/project3'
+    },
+    {
+      id: 4,
+      title: 'Project 4',
+      description: 'This is the fourth project',
+      image: 'https://via.placeholder.com/200x200',
+      url: 'https://example.com/project3',
+      githubUrl: 'https://github.com/example/project3'
+    },
+    {
+      id: 5,
+      title: 'Project 5',
+      description: 'This is the fifth project',
       image: 'https://via.placeholder.com/200x200',
       url: 'https://example.com/project3',
       githubUrl: 'https://github.com/example/project3'
