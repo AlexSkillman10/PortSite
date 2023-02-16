@@ -37,6 +37,7 @@ header {
   border-radius: 10px;
   padding: 20px;
   max-width: 800px;
+  margin: 10px;
   width: 100%;
 }
 
@@ -64,11 +65,11 @@ header {
 }
 
 .grid-item {
-  margin: 15px;
+  margin: 20px;
   background-color: #26262677;
   border-radius: 7px;
   padding: 0;
-  width: 400px;
+  width: 340px;
   height: 400px;
   text-align: left; 
   position: relative;
@@ -112,7 +113,7 @@ header {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
   .grid-container {
     justify-items: center;
     max-width: 900px;
@@ -120,6 +121,13 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .grid-item {
+    width: 400px;
+    margin: 15px;
   }
 }
 
